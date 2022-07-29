@@ -20,9 +20,9 @@
    string outPutFileName  = argv[3];
    const int numberOfColumns = atoi(argv[4]);
      
-   ifstream inFile1(obsGenoFileName.c_str()); // observed genotypes
-   ifstream inFile2(impGenoFileName.c_str()); // imputed genotypes
-   ofstream outFile(outPutFileName.c_str()); // output file
+   ifstream inFile1(obsGenoFileName.c_str()); 
+   ifstream inFile2(impGenoFileName.c_str()); 
+   ofstream outFile(outPutFileName.c_str()); 
    
    vector <int> a (numberOfColumns);
    vector <int> b (numberOfColumns);
