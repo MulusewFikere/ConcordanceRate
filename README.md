@@ -1,2 +1,2 @@
 # ConcordanceRate
-# I wrote this program to estimate correlation and concordance rate
+# I wrote this C++ program to estimate correlation and concordance rate
